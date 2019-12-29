@@ -32,10 +32,10 @@ def list(songs) # may have to use map method to change \\
   while i < songs.length do
     puts "\/#{i+1}. #{songs[i]}"
     i += 1
-     binding.pry
+     
   end
   songs
-end
+  binding.pry
 
 def play(songs)
   puts "Please enter a song name or number:"
