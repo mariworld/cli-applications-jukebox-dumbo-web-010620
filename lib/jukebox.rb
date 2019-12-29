@@ -31,12 +31,12 @@ end
    
 #   songs.collect{|x| x}
 #   binding.pry
-  # i = 0
-  # while i < songs.length do
-  #   puts "\/#{i+1}. #{songs[i]}"
-  #   i += 1
-  # end
-  # songs
+  i = 0
+  while i < songs.length do
+    puts "\/#{i+1}. #{songs[i]}"
+    i += 1
+  end
+  songs
 end
 
 def play(songs)
