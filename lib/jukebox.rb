@@ -29,6 +29,7 @@ end
 
 def list(songs) # may have to use map method to change \\
  songs.each_with_index
+ binding.pry
 end
 # i = 0
 #   while i < songs.length do
