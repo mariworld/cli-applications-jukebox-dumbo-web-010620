@@ -28,7 +28,7 @@ def help
 end
 
 def list(songs) # may have to use map method to change \\
- songs.each_with_index do |"#{index + 1}.#{song}"|
+ songs.each_with_index do |song,|
    end
  binding.pry
 end
