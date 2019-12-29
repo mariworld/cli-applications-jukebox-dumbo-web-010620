@@ -30,7 +30,6 @@ end
 def list(songs) # may have to use map method to change \\
  songs.each_with_index do |song,index|
    "#{index + 1}.#{song}"
-    binding.pry
    end
 end
 # i = 0
