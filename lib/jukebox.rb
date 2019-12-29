@@ -47,8 +47,6 @@ def play(songs)
   puts "Please enter a song name or number:"
   # it's not grabbing list method but that 
   #integer input should correspond to the index of the song
-  list(songs)
-  binding.pry
   user_response = gets.strip.to_s
   if songs.include?(user_response)
     puts "Playing #{user_response}"
@@ -65,4 +63,4 @@ def run
   puts "Please enter a command:"
   user_input = gets.strip
 end
-#list(songs)
+play(songs)
