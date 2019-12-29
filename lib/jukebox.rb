@@ -32,7 +32,7 @@ def list(songs) # may have to use map method to change \\
    "#{index + 1}.#{song}"
    end
    songs
-   binding.pry
+   #binding.pry
 end
 # i = 0
 #   while i < songs.length do
