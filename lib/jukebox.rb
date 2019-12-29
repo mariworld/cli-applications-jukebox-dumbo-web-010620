@@ -30,7 +30,7 @@ end
 def list(songs) # may have to use map method to change \\
  songs.map.with_index do |song,index|
    playlist = "#{index + 1}.#{song}"
-   playlist
+   puts playlist
    end
    #songs
    #binding.pry
