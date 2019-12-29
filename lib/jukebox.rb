@@ -30,7 +30,7 @@ end
 def list(songs) # may have to use map method to change \\
  songs.map.with_index do |song,index|
    playlist = "#{index + 1}.#{song}"
-   p playlist
+   playlist
    end
    #songs
    #binding.pry
@@ -64,4 +64,4 @@ def run
   puts "Please enter a command:"
   user_input = gets.strip
 end
-play(songs)
+#play(songs)
