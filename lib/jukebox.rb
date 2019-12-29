@@ -32,6 +32,7 @@ def list(songs) # may have to use map method to change \\
   while i < songs.length do
     puts "\/#{i+1}. #{songs[i]}"
     i += 1
+     binding.pry
   end
   songs
 end
@@ -40,7 +41,6 @@ def play(songs)
   puts "Please enter a song name or number:"
   # it's not grabbing list method but that 
   #integer input should correspond to the index of the song
-  binding.pry
   list(songs)
   
   user_response = gets.strip.to_s
