@@ -28,14 +28,15 @@ def help
 end
 
 def list(songs) # may have to use map method to change \\
-  i = 0
-  while i < songs.length do
-    puts "\/#{i+1}. #{songs[i]}"
-    i += 1
-  end
-  songs
-  #binding.pry
+ 
 end
+# i = 0
+#   while i < songs.length do
+#     puts "\/#{i+1}. #{songs[i]}"
+#     i += 1
+#   end
+#   songs
+#   #binding.pry
 
 def play(songs)
   puts "Please enter a song name or number:"
