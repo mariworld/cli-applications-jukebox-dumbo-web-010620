@@ -29,7 +29,8 @@ end
 
 def list(songs) # may have to use map method to change \\
  songs.each_with_index do |song,index|
-  return "#{index + 1}.#{song}"
+  playlist = "#{index + 1}.#{song}"
+  return playlist
   end
 end
 # i = 0
