@@ -27,7 +27,7 @@ def help
   puts /- exit : exits this program/
 end
 
-# def list(songs) # may have to use map method to change songs array
+def list(songs) # may have to use map method to change songs array
    
 #   songs.collect{|x| x}
 #   binding.pry
