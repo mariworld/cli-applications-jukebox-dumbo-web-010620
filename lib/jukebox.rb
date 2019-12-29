@@ -34,7 +34,7 @@ def list(songs) # may have to use map method to change \\
     i += 1
   end
   songs
-  binding.pry
+  #binding.pry
 end
 
 def play(songs)
