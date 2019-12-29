@@ -27,10 +27,7 @@ def help
   puts /- exit : exits this program/
 end
 
-def list(songs) # may have to use map method to change songs array
-   
-#   songs.collect{|x| x}
-#   binding.pry
+def list(songs) # may have to use map method to change \\
   i = 0
   while i < songs.length do
     puts "\/#{i+1}. #{songs[i]}"
