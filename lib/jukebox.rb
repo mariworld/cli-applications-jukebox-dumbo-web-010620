@@ -28,7 +28,7 @@ def help
 end
 
 def list(songs) # may have to use map method to change \\
- songs.map_with_index do |song,index|
+ songs.map.with_index do |song,index|
    playlist = "#{index + 1}.#{song}"
    puts playlist
    end
