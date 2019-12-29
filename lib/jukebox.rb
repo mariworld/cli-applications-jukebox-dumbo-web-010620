@@ -29,7 +29,7 @@ end
 
 def list(songs) # may have to use map method to change \\
  songs.map.with_index do |song,index|
-   puts "#{index + 1}.#{song}"
+   puts "\/#{index + 1}.#{song}"
    end
 end
 # i = 0
