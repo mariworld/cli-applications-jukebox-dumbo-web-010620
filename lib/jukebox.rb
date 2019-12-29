@@ -62,4 +62,4 @@ def run
   puts "Please enter a command:"
   user_input = gets.strip
 end
-list(songs)
+#list(songs)
